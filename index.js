@@ -15,14 +15,26 @@ app.get('/', (request, response)=> {
 })
 
 app.get('/api/ejemploGet', (request, response)=> {
+    /*
+        Caso de ejemplo de GET.
+        Al hacer la solicitud GET a http://localhost:8080/api/ejemploGet, devolverá el objeto
+        JSON que se encuentra en response.json()
+
+    */
     response.json({
         msg: 'Soy la respuesta del GET'
     })
 })
 
 app.post('/api/ejemploPost', (request, response)=> {
+    /*
+        Caso de ejemplo de POST.
+        Al hacer la solicitud POST a http://localhost:8080/api/ejemploGet, devolverá el objeto
+        JSON que se encuentra en response.json()  
+    */
     response.json({msg: 'Soy la respuesta del POST'});
 })
+
 
 app.get('/api/products', (request, response)=> {
     const menu = [

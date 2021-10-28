@@ -15,6 +15,12 @@ API REST en Node JS y Express, para probar en frontends locales, los verbos GET 
 
 ## Endpoints
 GET
-
+  http://localhost:8080/ - Para verificar el funcionamiento del servidor 
+  http://localhost:8080/ejemploGet - Para verificar el funcionamiento del servidor
+  http://localhost:8080/productos - Productos aleatorios. De modificar las líneas 40 a 145 con un objeto, pueden personalizar este endpoint
+  
 POST
-
+  http://localhost:8080/ejemploPost - Para verificar el funcionamiento del servidor 
+  http://localhost:8080/form - Para verificar el funcionamiento del servidor. Devuelve el objeto JSON que es enviado
+  
+  
