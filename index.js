@@ -29,7 +29,7 @@ app.get('/api/ejemploGet', (request, response)=> {
 app.post('/api/ejemploPost', (request, response)=> {
     /*
         Caso de ejemplo de POST.
-        Al hacer la solicitud POST a http://localhost:8080/api/ejemploGet, devolverá el objeto
+        Al hacer la solicitud POST a http://localhost:8080/api/ejemploPost, devolverá el objeto
         JSON que se encuentra en response.json()  
     */
     response.json({msg: 'Soy la respuesta del POST'});

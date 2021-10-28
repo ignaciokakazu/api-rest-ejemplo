@@ -1,9 +1,10 @@
 # apiRestLocal
 API REST para probar
 ## Introducción
-API REST en Node JS y Express, para probar en frontends locales, los verbos GET y POST mediante Ajax o Fetch API
+API REST en Node JS con la librería Express, para probar en frontends locales, los verbos GET y POST mediante Ajax o Fetch API
 
 ## Para iniciar
+0. Descargar Node JS en https://nodejs.org/es/
 1. Descargar/clonar el repositorio
 2. Posicionarse en la carpeta del repositorio
 3. Ejecutar npm install
